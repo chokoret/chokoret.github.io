@@ -1,15 +1,8 @@
 // Colors for social icons
 $github: #24292e;
-$twitter: #1DA1F2;
 $linkedin: #0e76a8;
 $rss: #f26522;
 $mail: #5d5c5d;
-$instagram: #e1306c;
-$facebook: #3b5998;
-$messenger: #0084ff;
-$youtube: #ff0000;
-$whatsapp: #25d366;
-$reddit: #ff4500;
 
 header{
     margin-left: auto;
@@ -68,9 +61,6 @@ header{
                 #github:hover{
                     color: $github;
                 }
-                #twitter:hover{
-                    color: $twitter;
-                }
                 #linkedin:hover{
                     color: $linkedin;
                 }
@@ -79,24 +69,6 @@ header{
                 }
                 #envelope:hover{
                     color: $mail;
-                }
-                #instagram:hover{
-                    color: $instagram;
-                }
-                #facebook:hover{
-                    color: $facebook;
-                }
-                #messenger:hover{
-                    color: $messenger;
-                }
-                #youtube:hover{
-                    color: $youtube;
-                }
-                #whatsapp:hover{
-                    color: $whatsapp;
-                }
-                #reddit:hover{
-                    color: $reddit;
                 }
             }
         }
