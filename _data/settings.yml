@@ -4,7 +4,7 @@ analytics-id: UA-157926257-1
 #Subtitle
 subtitle:
   active: false
-  text: 
+  text:
 
 #Nav 
 nav:
@@ -34,6 +34,5 @@ related-posts:
   active: false
   title: "You May Also Enjoy"
 
-#Disqus
-disqus:
-  disqus_shortname: "alessio-franceschi-blog" #Your disqus shortname. Leave blank to deactivate disqus comments
+#Comments
+comments: true

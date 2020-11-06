@@ -16,6 +16,7 @@ YAMT is a minimal [Jekyll](http://jekyllrb.com) theme focused on simplicity and 
 - [Installation](#installation)
 - [Customize](#options)
   - [Basics](#Basics)
+  - [Typography](#Typography)
   - [Header](#header)
   - [Home](#home)
   - [Post](#post)
@@ -99,6 +100,8 @@ Github Pages uses the [--safe flag](https://jekyllrb.com/docs/configuration/opti
     $ gem install jekyll-yamt
     ```
 
+#### ERROR: There was an error while loading `jekyll-yamt.gemspec`: No such file or directory - git ls-files -z. Bundler cannot continue.
+If you encounter this error when running `bundle install`, please make sure git is installed.
 
 ## Customize
 
@@ -113,7 +116,10 @@ In social you can add your socials that will show up in the nav. To add a social
 Brand defines Font Awesome's font type (fas is solid, fab is brand).
 Out of the box this theme has support colors for a bunch of social. If your social isn't supported, just add the color in the header.css 
 
-In `settings.yml` you can activate or deactivate various functions of the theme, like analytics, disqus comments, related posts and so on.
+In `_data/settings.yml` you can activate or deactivate various functions of the theme, like analytics, disqus comments, related posts and so on.
+
+### Typography
+By default YAMT uses the System Font STack, which greatly reduces load times. If you want to use the old Font Stack, in `assets/main.scss` change `typography` to `typography-old`.
 
 ### Header
 In `_data/settings.yml` you can choose to hide or show the subtitle, the page navigation or the social icons.
@@ -141,6 +147,7 @@ When your theme is released, only the files in `_layouts`, `_includes`, `_sass` 
 To add a custom directory to your theme-gem, please edit the regexp in `yamt.gemspec` accordingly.
 
 ## Credits
+Theme designed and created by [Alessio Franceschi](https://github.com/PandaSekh/).
 Inspired by [Lagrange by LeNPaul](https://lenpaul.github.io/Lagrange/).  
 Also great help from [this blog](https://blog.webjeda.com/), I've used this even before I created this theme.  
 Images from [Unsplash](https://unsplash.com/).

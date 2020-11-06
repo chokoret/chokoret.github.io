@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 {% for post in paginator.posts %}
+
 <div class="post">
     <h2 id = "post-title"><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
 
@@ -16,17 +17,16 @@ title: Home
     </div>
     {% endif %}
 
-   {% if site.data.settings.featured-img.active %}
+    {% if site.data.settings.featured-img.active %}
     <div class = "featured-img-container">
         {% if post.image %}
-        <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}"/></a>
+            <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}"/></a>
         {% endif %}
-        {% if post.video %}
-            <a href="{{ post.url | relative_url }}">{% include gif.html filename = post.video %}</a>
+        {% if post.gif %}
+            <a href="{{ post.url | relative_url }}">{% include gif.html file = post.gif %}</a>
         {% endif %}
     </div>
     {% endif %}
-
 
     <p>
         {% if post.customexcerpt %}
