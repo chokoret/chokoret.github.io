@@ -1,6 +1,6 @@
 # Site settings
 title: 뉴 노멀
-description: "Yet Another Minimal Theme"
+description: "매일매일 변화를 적어가는 일기장"
 url:  "" # Actual base url of the website
 baseurl: "/"           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
