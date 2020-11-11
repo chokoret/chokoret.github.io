@@ -1,12 +1,12 @@
 # Site settings
-title: YAMT
+title: 뉴 노멀
 description: "Yet Another Minimal Theme"
-url:  "https://yamt.netlify.app" # Actual base url of the website
+url:  "" # Actual base url of the website
 baseurl: "/"           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
-  name: "Alessio Franceschi"
-  email: "alessiofranceschi2@gmail.com"
-  url: "https://alessiofranceschi.me"
+  name: "A"
+  email: "chokoret@gmail.com"
+  url: "https://chokoret.github.io"
 permalink: /:year/:month/:day/:title:output_ext
 
 #Plugins
