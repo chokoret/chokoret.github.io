@@ -1,29 +1,18 @@
 ---
-title: This is YAMT!
+title: 칵테일 : 섹스 온 더 비치 (달콤한 과일맛)
 layout: post
-categories: [Typography, Markdown, Tips]
-image: /assets/img/logo.jpg
-description: "Welcome to YAMT - Yet Another Minimal Theme."
+categories: [Markdown, Tips]
+image: https://m8g5e5y2.stackpathcdn.com/wp-content/uploads/2013/06/sex-on-the-beach-cocktail.jpg
 ---
 
-Welcome to YAMT - Yet Another Minimal Theme. YAMT is a minimal Jekyll theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.
+Sex on the beach
+여자들이 많이 좋아하는 열대과일맛 나는 상큼한 칵테일로
+두가지 색의 과일 주스가 섞여 있어서 예쁘기도 예쁜 칵테일 입니다.
 
-* hello
-{:toc}
 
-## Features 
-- Minimal and clean design.
-- Fully modular: activate and load only what you really need.
-- Works great on mobile and smaller screens.
-- Supports [Disqus](https://disqus.com/) comments activated only on button press, if you activate them.
-- [Google Analytics](https://www.google.com/analytics/) support.
-- [Open Graph](https://ogp.me/) and [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started) support to better index the website content on search engines and social networks.
-- [MathJAX](https://www.mathjax.org/) and [LaTeX](https://www.latex-project.org/) optional support. Write beautiful math!
-- [RSS](https://github.com/jekyll/jekyll-feed) support.
-- Beautiful [Syntax Highlight](https://yamt.netlify.app/2020/05/19/special-formatting.html#syntax-highlight). Write some code and show it in a graceful way.
+보드카
+오랜지 쥬스
+크랜베리 주스
 
-## Installation
-[Read here](https://github.com/PandaSekh/Jekyll-YAMT#installation).
-
-## Customization
-[Read here](https://github.com/PandaSekh/Jekyll-YAMT#customize).
+오렌지 주스와 크랜베리 주스는 반반, 여기에 보드카는 약간으로 농도를 맞추면 됩니다.
+만들기 아주 쉽고 예쁜 칵테일!
